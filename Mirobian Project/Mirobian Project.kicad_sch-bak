@@ -1,0 +1,134 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6a884595-0c67-4441-b1fc-8c3bd19f52b4)
+
+  (paper "A4")
+
+  (title_block
+    (title "STM32 Board Development Program")
+    (company "Infinity Project")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.735 34.29) (size 31.115 45.72) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2900156e-f6e1-4bc5-9bef-45bbbb16814f)
+    (property "Sheet name" "Power Management" (id 0) (at 38.735 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "PowerManagement_sch.kicad_sch" (id 1) (at 38.735 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 78.105 34.29) (size 31.75 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6e09b499-99ec-43a1-82d1-b2299f47145f)
+    (property "Sheet name" "Serial port download program interface" (id 0) (at 78.105 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SerialPort_sch.kicad_sch" (id 1) (at 78.105 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 150.495 33.655) (size 28.575 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8c43e084-fc51-4e04-bf0f-0af28749565c)
+    (property "Sheet name" "JTAG|SWD" (id 0) (at 150.495 32.9434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "JTAG_sch.kicad_sch" (id 1) (at 150.495 82.4996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 119.38 33.655) (size 27.305 48.26) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid af17599c-558a-4e03-a5b1-99e6ee0c5196)
+    (property "Sheet name" "CPU" (id 0) (at 119.38 32.9434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CPU_sch.kicad_sch" (id 1) (at 119.38 82.4996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f" (page "2"))
+    (path "/6e09b499-99ec-43a1-82d1-b2299f47145f" (page "3"))
+    (path "/af17599c-558a-4e03-a5b1-99e6ee0c5196" (page "4"))
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/6e09b499-99ec-43a1-82d1-b2299f47145f/0e308fa1-58a4-4399-b604-3c5e4456a4ab"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/14d9df32-16e7-4d89-9e66-86ac77058b82"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/21319aab-b022-42ae-853f-29dae513a411"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f/5cc8af3b-9f1e-4527-af40-d38b23a3c2a4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/7cc16f37-2b3b-46f2-9f62-8ef8cb7ae19f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6e09b499-99ec-43a1-82d1-b2299f47145f/8a206fdf-8374-43c5-8dd2-18a252ebb2ac"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/c83381f9-77a5-42c4-b8a0-f922724c52af"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/ca27475f-594d-4b86-9b7d-33dc3ba8c659"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/bcef3b8c-6408-4c8d-ab7d-fe593dcbb8c2"
+      (reference "C?") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/af17599c-558a-4e03-a5b1-99e6ee0c5196/1fefa15d-6345-4722-bc26-829187a3585c"
+      (reference "IC?") (unit 1) (value "STM32F407VET6") (footprint "QFP50P1600X1600X160-100N")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/3b9efaaa-4580-43a1-845d-0c93e88d8ae8"
+      (reference "J?") (unit 1) (value "Conn_ARM_JTAG_SWD_20") (footprint "")
+    )
+    (path "/6e09b499-99ec-43a1-82d1-b2299f47145f/785bdca2-180c-490d-866a-2c33d1a66970"
+      (reference "J?") (unit 1) (value "M20-9770446") (footprint "HDRV4W64P0X254_1X4_1016X254X834P")
+    )
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f/1d5350e9-225e-4e89-b8ba-5aabce346ad6"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/3e8a6dee-c26f-4e7d-904a-0c18c6c47379"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/66f15550-06a4-47d7-87aa-45282bda0790"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f/7e2d3b1a-d8d9-41ba-ba57-82f2bd3f4eb5"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f/81c5bb54-1a3c-40f5-affa-7e4e12d55429"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/8c43e084-fc51-4e04-bf0f-0af28749565c/ad11af62-1de0-466a-acc9-45bf733c1eca"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f/afa0fcf7-70c9-4d56-a56c-c88615b7e471"
+      (reference "R?") (unit 1) (value "R") (footprint "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder")
+    )
+    (path "/2900156e-f6e1-4bc5-9bef-45bbbb16814f/963be122-2314-4714-8aeb-e96d46c5b71a"
+      (reference "U?") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+    )
+  )
+)
