@@ -1,1 +1,2 @@
 # STM32Based-MyProject
+The Board is based on the STM32 microcontroller, with the Blue Pill STM32F103 serving as the reference material for schematic design. This board is equipped with communication options, either the nRF24L01 or LoRa-02, which can be externally selected according to the user's preference. Additionally, the board features an integrated ADXL345 sensor. It includes a TF-Card for additional data storage. Furthermore, the board can be augmented with an external TFT LCD, which users can purchase separately.
